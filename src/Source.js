@@ -2,7 +2,7 @@ export default function Source () {
   return (
     <small>
       <a
-        href="https://github.com/Nikoteenie/Vanilla-Weather-App.git"
+        href="https://github.com/Nikoteenie/Weather-React.git"
         target="_blank"
         rel="noreferrer"
       >

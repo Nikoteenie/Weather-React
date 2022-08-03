@@ -9,9 +9,11 @@ function App() {
       <header className="App-header">
         <div class="container">
           <div class="weather-app-wrapper">
-            <CurrentWeather />
-            <Forecast />
-             <Source />
+            <div class="weather-app">
+              <CurrentWeather />
+              <Forecast />
+            </div>
+            <Source />
           </div>
         </div>
       </header>
