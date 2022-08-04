@@ -15,16 +15,18 @@ export default function CurrentWeather() {
             />
           </div>
           <div className="col-3">
-            <input type="submit" value="Search" className="btn btn-primary w-100" />
+            <input
+              type="submit"
+              value="Search"
+              className="btn btn-primary w-100"
+            />
           </div>
         </div>
       </form>
       <div className="overview">
         <h1 id="city">Miami</h1>
         <ul>
-          <li>
-            Last updated: 08/02/2022<span id="date"></span>
-          </li>
+          <li id="date">Last updated: 08/02/2022</li>
           <li id="description"> Clear Sky</li>
         </ul>
       </div>
@@ -35,17 +37,17 @@ export default function CurrentWeather() {
               src={SunImage}
               alt="Clear"
               id="icon"
-              width="150"
+              width="80"
               className="float-left"
             />
             <div className="float-left">
-              <strong id="temperature"></strong>
+              <strong id="temperature">90</strong>
               <span className="units">
-                <a href="" id="celsius-link" className="active">
+                <a href="/" id="celsius-link" className="active">
                   °C
                 </a>{" "}
                 |{" "}
-                <a href="" id="fahrenheit-link">
+                <a href="/" id="fahrenheit-link">
                   °F{" "}
                 </a>{" "}
               </span>
