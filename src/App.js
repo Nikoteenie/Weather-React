@@ -7,9 +7,9 @@ function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <div class="container">
-          <div class="weather-app-wrapper">
-            <div class="weather-app">
+        <div className="container">
+          <div className="weather-app-wrapper">
+            <div className="weather-app">
               <CurrentWeather />
               <Forecast />
             </div>
