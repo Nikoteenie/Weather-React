@@ -60,19 +60,12 @@ export default function CurrentWeather() {
               Humidity: <span id="humidity">50</span>%
             </li>
             <li>
-              Wind: <span id="wind">5</span>
-              <a href="#" id="kmh-link" className="activate">
-                {" "}
-                km/h
-              </a>{" "}
-              |{" "}
-              <a href="#" id="mph-link">
-                mph
-              </a>{" "}
-            </li>
+              Wind: <span id="wind">5 </span>
+          km/h
+           </li>
           </ul>
         </div>
       </div>
-    </div>
+  </div>
   );
 }
